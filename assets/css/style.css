@@ -1,0 +1,78 @@
+@font-face{
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+    font-weight: 400;
+}
+@font-face{
+    font-family:"Georgia";
+    src: url("../fonts/Poppins-Regular.ttf");
+    font-weight: 400;
+}
+@font-face{
+    font-family: "Palantino";
+    src:url("../fonts/ofont.ru_Palatino Linotype.ttf");
+    font-weight: 400;
+}
+*
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.header_container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+/* header */
+.header{
+    padding: 20px 0;
+}
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.header_menu{
+    display: flex;
+    align-items: center;
+}
+.header_menu li{
+    margin-right: 20px;
+}
+.header_menu li:last-child{
+    margin-right: 0px;
+}
+.menu_link{
+    font-family: "Georgia";
+    font-size: 14px;
+    color: #353732;
+}
+/* intro */
+.intro{
+    padding: 100px 0 110px 0;
+}
+.intro_wrapper{
+    display: block;
+}
+.intro_wrapper img{
+    width: 94px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+.intro_title{
+    font-family: "Palatino Linotype";
+    font-size: 36px;
+    font-weight: 400;
+    color: #353732;
+}
